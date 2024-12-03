@@ -7,7 +7,6 @@ const authRoutes = require('./routes/authRoutes');
 const blogRoutes = require('./routes/blogRoutes');
 
 const app = express();
-app.options('*', cors());
 
 // Middleware
 app.use(cors({
