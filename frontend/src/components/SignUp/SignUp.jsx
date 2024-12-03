@@ -54,7 +54,7 @@ const SignUp = () => {
           />
         </div>
         <div className="form-group my-4">
-          <label htmlFor="exampleInputUsername">Username</label>
+          <label htmlFor="exampleInputUsername">username</label>
           <input
             type="text"
             className="form-control"
