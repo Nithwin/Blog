@@ -10,8 +10,9 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // Replace with the frontend URL if different
+  origin: 'https://nithwin-blog.vercel.app', // Replace with the frontend URL if different
   methods: 'GET,POST,PUT,DELETE',
+  credentials:true,
   allowedHeaders: 'Content-Type,Authorization',
 }));
 app.use(express.json());  // Parse JSON requests
