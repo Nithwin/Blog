@@ -1,0 +1,29 @@
+.hero-container {
+  height: calc(100vh - 12vh); /* Full height minus navbar */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: aliceblue;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo-container img {
+  height: 500px; /* Default for PC */
+}
+
+@media (max-width: 767px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-container {
+    text-align: center;
+  }
+
+  .logo-container img {
+    height: 300px; /* Size for mobile */
+  }
+}

@@ -1,0 +1,86 @@
+.my-blog-container {
+  min-height: calc(100vh - 12vh); /* Full height minus header height */
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+::placeholder {
+  color: gray; /* Change the placeholder text color to gray */
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+  color: gray;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: gray;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: gray;
+}
+.form-control:-moz-placeholder { /* Older versions of Firefox */
+  color: gray;
+}
+
+
+.media img {
+  margin-right: 0.5rem;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.ml-3 {
+  margin-left: 0.5rem !important;
+}
+
+.mr-3 {
+  margin-right: 0.5rem !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.btn-light {
+  border: none;
+  background: none;
+  padding: 0.5rem;
+}
+
+.no-hover {
+  pointer-events: none;
+}
+
+.hashtags span {
+  background-color: #17a2b8;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
+}
+
+.edit-icon, .delete-icon {
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.edit-icon:hover, .delete-icon:hover {
+  color: #007bff;
+}
+
+.content-bg {
+  background-color: #f8f9fa;
+}

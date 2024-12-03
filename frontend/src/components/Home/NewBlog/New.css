@@ -1,0 +1,27 @@
+
+.NEwBlogtext-gradient {
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; /* Adjust as needed */
+}
+
+
+.new-post-container {
+  min-height: calc(100vh - 12vh); /* Full height minus header height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.BtnColor{
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: whitesmoke;
+  transition: all ease-out .3s ;
+}
+
+.BtnColor:hover{
+  opacity: .7;
+}

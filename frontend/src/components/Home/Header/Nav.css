@@ -1,0 +1,19 @@
+.offcanvas-collapse {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  transition: right 0.3s ease-in-out;
+  z-index: 1045;
+}
+
+.offcanvas-collapse.open {
+  right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  padding: 1rem 1.5rem;
+}

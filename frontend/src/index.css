@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+
+.babylonica-regular {
+  font-family: "Babylonica", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+
+.babylonica {
+  font-family: "Babylonica", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+
+.Mainbackground{
+  color: aliceblue;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+  .text-gradient {
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; /* Adjust as needed */
+  }
+
+
+  .text-purple {
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem; /* Adjust as needed */
+    font-weight: bold; /* Adjust as needed */
+  }
