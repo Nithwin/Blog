@@ -14,7 +14,20 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+// Apply CORS middleware
+app.use(cors(corsOptions));
+
+// Handle preflight requests
+app.options('*', cors(corsOptions));
 app.use(express.json());  // Parse JSON requests
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://nithwin-blog.vercel.app');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
