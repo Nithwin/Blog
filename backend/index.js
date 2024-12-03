@@ -27,7 +27,7 @@ app.use("/auth", authRoutes);  // Authentication routes
 app.use("/blogs", blogRoutes);  // Blog routes
 
 app.get("/works",(req,res) =>{
-  res.send("working");
+  res.send("working good");
 })
 // Start the server
 const port = process.env.PORT || 5000;
