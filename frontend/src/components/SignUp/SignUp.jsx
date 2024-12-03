@@ -21,7 +21,9 @@ const SignUp = () => {
     const userData = { email, username, password };
 
     try {
-      const response = await axios.post('https://nithwin-blog-api.vercel.app/auth/signup', userData);
+      const response = await axios.post('https://nithwin-blog-api.vercel.app/auth/signup', userData,{
+        withCredentials:true,
+      });
       alert('Signup successful!');
       navigate('/signin');
     } catch (error) {
