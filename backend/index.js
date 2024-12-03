@@ -12,8 +12,7 @@ const app = express();
 app.use(cors({
   origin: 'https://nithwin-blog.vercel.app', // Replace with the frontend URL if different
   methods: 'GET,POST,PUT,DELETE',
-  credentials:true,
-  allowedHeaders: 'Content-Type,Authorization',
+  credentials:true
 }));
 app.use(express.json());  // Parse JSON requests
 
