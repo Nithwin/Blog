@@ -51,7 +51,7 @@ const MyBlog = () => {
         return;
       }
 
-      const response = await axios.delete(`http://localhost:5000/blogs/${id}`, {
+      const response = await axios.delete(`https://nithwin-blog-api.vercel.app/blogs/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 

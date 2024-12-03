@@ -21,7 +21,7 @@ const New = () => {
         return;
       }
 
-      await axios.post('http://localhost:5000/blogs', blogData, {
+      await axios.post('https://nithwin-blog-api.vercel.app/blogs', blogData, {
         headers: { Authorization: `Bearer ${token}` },
       });
 

@@ -13,7 +13,7 @@ const Hero = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/blogs');
+        const response = await axios.get('https://nithwin-blog-api.vercel.app/blogs');
         setPosts(response.data);
       } catch (error) {
         console.error('Error fetching posts:', error);

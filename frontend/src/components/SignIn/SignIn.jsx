@@ -14,7 +14,7 @@ const SignIn = () => {
 
     try {
       // Update the URL to point to your backend
-      const response = await axios.post('http://localhost:5000/auth/login', userData);
+      const response = await axios.post('https://nithwin-blog-api.vercel.app/auth/login', userData);
 
       // Assuming the response contains a token
       const { token } = response.data;

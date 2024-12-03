@@ -16,7 +16,7 @@ const Profile = () => {
   useEffect(() => {
     if (token) {
       axios
-        .get('http://localhost:5000/auth/profile', {
+        .get('https://nithwin-blog-api.vercel.app/auth/profile', {
           headers: { Authorization: `Bearer ${token}` }
         })
         .then((response) => {
@@ -42,7 +42,7 @@ const Profile = () => {
     // Update profile data
     axios
       .put(
-        'http://localhost:5000/auth/profile',
+        'https://nithwin-blog-api.vercel.app/auth/profile',
         updatedProfile,
         {
           headers: { Authorization: `Bearer ${token}` },
