@@ -37,7 +37,7 @@ const SignUp = () => {
       <form className='px-4 py-3 rounded-5 text-white shadow-lg' style={{ backgroundColor: '#353535' }} onSubmit={handleSubmit}>
         <div>
           <p className='text-center h5 babylonica-regular text-gradient'>Nexus</p>
-          <p className='text-center fw-bold h2'>Sign Up</p>
+          <p className='text-center fw-bold h2'>Sign up</p>
         </div>
         {error && <p className="text-danger text-center">{error}</p>}
         <div className="form-group my-4">
